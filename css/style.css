@@ -26,7 +26,7 @@
 }
 
 body {
-    background-image: url(/img/Group.png);
+    background-image: url(./img/Group.png);
     background-repeat: no-repeat;
     background-size: 1345px;  
     font-family: 'Times New Roman', Times, serif;
@@ -1969,6 +1969,12 @@ hr {
         left: 100px;
         top: -40px;
     }
+    .contact-info-item1 h4 span {
+        white-space: pre;
+        position: absolute;
+        margin-top: 13px;
+        margin-left: 10px;
+    }
     
     .contact .map iframe {
         margin-left: 230px;
@@ -2031,9 +2037,11 @@ hr {
         margin-left: 270px;
     }
 
-    .contact-info-item1 h4 span, 
-    .contact-info-item4 h4 span {
-        font-size: 17px;
+    .contact-info-item1 h4 span {
+        white-space: pre;
+        position: absolute;
+        margin-top: 13px;
+        margin-left: 10px;
     }
 
     .right-side, .right-side1, 
@@ -2076,4 +2084,38 @@ hr {
         margin-left: 780px;
     }
 
+}
+
+@media(max-width: 345px) {
+    .h2 {
+        left: 380px;
+    }
+
+    .logo4 img {
+        top: 3740px;
+    }
+
+    .logo5 img {
+        top: 4470px;
+    }
+
+    .images2 p {
+        margin-left: 415px;
+    }
+
+    .images3 p {
+        margin-left: 780px;
+    }
+
+    .contact h1 {
+        margin-left: 30px;
+        white-space: pre;
+    }
+
+    .contact-info-item1 h4 span {
+        white-space: pre;
+        position: absolute;
+        margin-top: 13px;
+        margin-left: 10px;
+    }
 }
