@@ -21,12 +21,9 @@
     --sub-heading2: #2774ae;
 }
 
-#About #Vision #Services {
-   animation: alternate-reverse;
-}
 
 body {
-    background-image: url(/img/Candy.png);
+    background-image: url(../img/Home.png);
     background-repeat: no-repeat;
     background-size: 1345px;  
     font-family: 'Times New Roman', Times, serif;
@@ -300,7 +297,7 @@ body {
 
 /* Vision section starts*/
 .vi-bg {
-    background: linear-gradient(rgba(18, 136, 233, 0.3),rgba(15, 127, 224, 0.3)), url(/img/pics2.jpg);
+    background: linear-gradient(rgba(18, 136, 233, 0.3),rgba(15, 127, 224, 0.3)), url(../img/pics2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1339px;
@@ -755,7 +752,7 @@ left: 4px;
 /* Team Section starts */
 /* Team section1 Starts */
 .team {
-    background-image: url(/img/team.png);
+    background-image: url(../img/team.png);
     background-size: cover;
     background-repeat: no-repeat;
     left: 5px;
@@ -2087,6 +2084,40 @@ hr {
 }
 
 @media(max-width: 345px) {
+    .h2 {
+        left: 380px;
+    }
+
+    .logo4 img {
+        top: 3740px;
+    }
+
+    .logo5 img {
+        top: 4470px;
+    }
+
+    .images2 p {
+        margin-left: 415px;
+    }
+
+    .images3 p {
+        margin-left: 780px;
+    }
+
+    .contact h1 {
+        margin-left: 30px;
+        white-space: pre;
+    }
+
+    .contact-info-item1 h4 span {
+        white-space: pre;
+        position: absolute;
+        margin-top: 13px;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 315px) {
     .h2 {
         left: 380px;
     }
